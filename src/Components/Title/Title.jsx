@@ -4,8 +4,8 @@ import './Title.css';
 const Title = ({ title, subTitle }) => {
     return (
         <div className='title'>
-            <p>{title}</p>
-            <h2>{subTitle}</h2>
+            <p>{subTitle}</p>
+            <h2>{title}</h2>
         </div>
     )
 }
